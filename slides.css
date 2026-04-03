@@ -1,0 +1,56 @@
+.reveal .slides section {
+  text-align: left;
+}
+
+.hero-grid,
+.two-col,
+.three-col,
+.diagram {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.hero-grid,
+.two-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.diagram {
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.box,
+.hero-card {
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.arrow {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.flow {
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.strong {
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.meta {
+  margin-top: 20px;
+  font-size: 0.8em;
+  opacity: 0.8;
+}

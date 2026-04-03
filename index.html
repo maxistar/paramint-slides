@@ -9,16 +9,156 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <h2>Paramint</h2>
-          <p>Pitch deck</p>
+          <h1>Paramint</h1>
+          <h3>Own the recipe, not just the file</h3>
+          <p>Parametric 3D models + Solana ownership</p>
+          <div class="hero-grid">
+            <div class="hero-card">
+              <h4>Cable winder render</h4>
+              <p>[placeholder visual]</p>
+            </div>
+            <div class="hero-card">
+              <h4>Flow</h4>
+              <p>Parameters → Model → Minted Asset</p>
+            </div>
+          </div>
+          <p class="meta">Team: [team name] · Hackathon: [hackathon name]</p>
         </section>
+
         <section>
-          <h3>Problem</h3>
-          <p>Define the core pain point.</p>
+          <h2>3D models are easy to copy, hard to own</h2>
+          <div class="two-col">
+            <div>
+              <h4>Static STL</h4>
+              <ul>
+                <li>Downloadable output</li>
+                <li>Easy to duplicate</li>
+                <li>No editable logic ownership</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Editable Parametric Recipe</h4>
+              <ul>
+                <li>Own parameters + generator logic</li>
+                <li>Regenerate/export capability</li>
+                <li>Real control over design evolution</li>
+              </ul>
+            </div>
+          </div>
         </section>
+
         <section>
-          <h3>Solution</h3>
-          <p>Explain what Paramint changes.</p>
+          <h2>A 3D object has two layers</h2>
+          <div class="diagram">
+            <div class="box">Object layer<br/>preview · shape · STL</div>
+            <div class="arrow">⇅</div>
+            <div class="box">Recipe layer<br/>parameters · logic · regenerate/export</div>
+          </div>
+          <p class="strong">The most valuable part is the recipe, not the final mesh.</p>
+        </section>
+
+        <section>
+          <h2>Mint ownership of a parametric design</h2>
+          <p class="flow">Configure → Preview → Mint → Own → Regenerate</p>
+          <ul>
+            <li>Recipe access</li>
+            <li>Parameter editing</li>
+            <li>Regenerate production export</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Template demo: Cable Winder</h2>
+          <p>Same template, different owned configurations</p>
+          <div class="two-col">
+            <div>
+              <h4>Visual variations</h4>
+              <p>[v1] [v2] [v3] [v4]</p>
+            </div>
+            <div>
+              <h4>Example parameters</h4>
+              <ul>
+                <li>inner diameter</li>
+                <li>outer diameter</li>
+                <li>spool height</li>
+                <li>body diameter</li>
+              </ul>
+              <h4>Owner-only advanced</h4>
+              <ul>
+                <li>wire diameter</li>
+                <li>wall thickness</li>
+                <li>ring geometry offsets</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Open by default. Controlled by ownership.</h2>
+          <div class="two-col">
+            <div>
+              <h4>GitHub</h4>
+              <ul>
+                <li>Generated artifacts</li>
+                <li>Public history</li>
+                <li>Recipe snapshots</li>
+                <li>Open design repository</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Solana</h4>
+              <ul>
+                <li>Ownership proof</li>
+                <li>Provenance tracking</li>
+                <li>Editable access control</li>
+              </ul>
+            </div>
+          </div>
+          <p class="strong">Open artifacts + on-chain control.</p>
+        </section>
+
+        <section>
+          <h2>System architecture</h2>
+          <div class="diagram">
+            <div class="box">Frontend<br/>React/Vite</div>
+            <div class="box">Backend<br/>FastAPI + build123d</div>
+            <div class="box">GitHub repo</div>
+            <div class="box">Solana / Metaplex</div>
+            <div class="box">Phantom wallet</div>
+          </div>
+          <p>No custom Rust program is needed for the MVP.</p>
+        </section>
+
+        <section>
+          <h2>Why Solana is actually useful here</h2>
+          <div class="three-col">
+            <div class="box">Ownership</div>
+            <div class="box">Provenance</div>
+            <div class="box">Transferability</div>
+          </div>
+          <p class="strong">Blockchain is not used for storing geometry. It is used for control.</p>
+        </section>
+
+        <section>
+          <h2>From users to creators</h2>
+          <p>Two-layer authorship model:</p>
+          <ul>
+            <li>Template authors define the design space</li>
+            <li>Users create owned configurations inside that space</li>
+          </ul>
+          <p>Future: forkable public designs + royalties for template authors.</p>
+          <p class="strong">Templates define possibilities. Users create within them.</p>
+        </section>
+
+        <section>
+          <h2>Own your objects before they exist</h2>
+          <ul>
+            <li>Parametric generation</li>
+            <li>Open GitHub artifact history</li>
+            <li>Solana ownership + editable recipe control</li>
+          </ul>
+          <h3>We don’t tokenize files. We tokenize the right to regenerate physical objects.</h3>
+          <p class="meta">Demo URL: [link] · GitHub: [link] · QR: [placeholder]</p>
         </section>
       </div>
     </div>

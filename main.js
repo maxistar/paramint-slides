@@ -5,6 +5,7 @@ import Highlight from 'reveal.js/plugin/highlight/highlight.esm.js';
 import 'reveal.js/dist/reveal.css';
 import 'reveal.js/dist/theme/black.css';
 import 'reveal.js/plugin/highlight/monokai.css';
+import './slides.css';
 
 const deck = new Reveal({
   hash: true,
